@@ -326,9 +326,9 @@ body {
 
 } */
 .testimony__img {
-    max-width: 100%;
+    width: auto;
+    height: 400px;
     border-radius: 20%;
-    height: auto;
     display: block;
 }
 
@@ -702,3 +702,4 @@ body {
         margin:0;
         width: 100%;
         */}
+}
