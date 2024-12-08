@@ -286,7 +286,13 @@ body {
     grid-template-columns: 50px 1fr 50px;
     gap: 1em;
     align-items: center;
+}.testimony__picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
+
 
 .testimony__body{
     display: grid;
@@ -298,6 +304,7 @@ body {
     grid-row: 1/2;
     opacity: 0;
     pointer-events: none;
+
 }
 
 
@@ -308,11 +315,14 @@ body {
 }
 
 .testimony__img{
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
+    width: auto;
+    height: 400px;
+    border-radius: 20%;
     object-fit: cover;
-    object-position: 50% 30%;
+    object-position: 100% 100%;
+    align-items: center;
+    display: block;
+
 }
 
 .testimony__texts{
@@ -686,5 +696,3 @@ body {
         width: 100%;
         */
     }
-
-
